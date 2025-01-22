@@ -1,6 +1,6 @@
 // ボタンのクリックイベントを設定
 document.getElementById("readMyNumberCard").addEventListener("click", () => {
-    const redirectUrl = "https://myhome/NFCtest"; // リダイレクトURL
+    const redirectUrl = "https://myhome/MAINAtest"; // リダイレクトURL
     const portalAppUrl = `mypage-app://authenticate?redirect_uri=${encodeURIComponent(redirectUrl)}`;
     
     // マイナポータルアプリを起動
